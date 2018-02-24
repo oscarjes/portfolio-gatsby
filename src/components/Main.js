@@ -15,24 +15,49 @@ class Main extends React.Component {
 
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Intro</h2>
-          <span className="image main"><img src={pic01} alt="" /></span>
-          <p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+          <p>My path has been far from ordinary: I started out in finance (M&A consulting), then worked on a project with refugees in the Middle East for the German government and the UN. For the last few years I’ve been working in digital marketing, e.g. by being in charge of growth at <a href="https://WPCurve.com">WP Curve</a> leading up to their acquisition by GoDaddy.</p>
+
+          <p>My current passion, which I plan to pursue for many years to come, is coding. You can read about my unexpected journey learning how to code <a href="https://medium.com/@oscarjes/how-i-fell-in--with-coding-attended-a-boot-camp-for-1k-and-built-a-startup-mvp-35a57a777f3" target="_blank">here</a>. I’ve since built a <a href="https://www.hirelyapp.com" target="_blank">B2B SaaS app</a> (currently in beta), a <a href="https://coderschool.github.io/prework" target="_blank">learning platform for developers</a>, and a <a href='https://www.producthunt.com/posts/net-worth-in-crypto' target='_blank'>fun side-project</a> that received 100+ upvotes on producthunt.</p>
           {close}
         </article>
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">Work</h2>
-          <span className="image main"><img src={pic02} alt="" /></span>
-          <p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-          <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+          <h2 className="major">Software</h2>
+          <p>I'm a fullstack Ruby on Rails & React developer. Check out some of the things I've been working on below:</p>
+          <a href="https://www.hirelyapp.com" target="_blank"><h3 className="minor">Hirely</h3></a>
+          <ul>
+            <li>B2B SaaS App</li>
+            <li>Built using Ruby on Rails & jQuery</li>
+            <li>Currently in beta with active users</li>
+          </ul>
+          <a href='https://coderschool.github.io/prework' target='_blank'><h3 className="">CoderSchool Prework</h3></a>
+          <ul>
+            <li>Learning platform for developers</li>
+            <li>Frontend in React and backend Rails API</li>
+          </ul>
+          <a href='https://www.producthunt.com/posts/net-worth-in-crypto' target='_blank'><h3 className="">Net Worth in Crypto</h3></a>
+          <ul>
+            <li>Side project built using Rails in a single weekend</li>
+            <li>Launched on Product Hunt and received 100+ upvotes</li>
+          </ul>
           {close}
         </article>
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">About</h2>
-          <span className="image main"><img src={pic03} alt="" /></span>
-          <p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+          <h2 className="major">Marketing</h2>
+          <p>I have been in charge of growth & marketing for a few busineses, including <a href="https://wpcurve.com" target="_blank">WP Curve</a> leading up to their sale to GoDaddy. Here are some articles that will give you an idea of the work that I have done:</p>
+            <ul>
+              <li><a href="https://wpcurve.com/growth-hacking" target="_blank">Our exact process for managing marketing and growth at WP Curve</a></li>
+              <li><a href="https://wpcurve.com/customer-segmentation-strategy/" target="_blank">Customer segmentation strategy – How to pitch based on content interest areas (WP Curve’s new lead nurture sequence)</a></li>
+            </ul>
+            <hr />
+            <h3 className="">Marketing Projects</h3>
+            <ul>
+              <li>Growth @ <a href="https://www.excelrescue.net" target="_blank">Excel Rescue</a> (2017/2018)</li>
+              <li>Growth & Finance @ <a href="https://www.crewfire.com" target="_blank">CrewFire</a> & <a href="https://www.simplecrew.com" target="_blank">SimpleCrew</a> (2016/2017)</li>
+              <li>Growth @ <a href="https://wpcurve.com" target="_blank">WP Curve</a> (2015/2016)</li>
+              <li>Marketing & Sales @ <a href="https://www.nomadcapitalist.com" target="_blank">Nomad Capitalist</a> (2014/2015)</li>
+            </ul>
           {close}
         </article>
 
