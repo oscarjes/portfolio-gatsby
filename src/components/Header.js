@@ -1,5 +1,4 @@
 import React from 'react'
-import oscar from '../images/oscar.jpg'
 
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
