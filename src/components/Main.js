@@ -24,21 +24,45 @@ class Main extends React.Component {
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Software</h2>
           <p>I'm a fullstack Ruby on Rails & React developer. Check out some of the things I've been working on below:</p>
+          <a href='https://coderschool.github.io/prework' target='_blank'><h3 className="">CoderSchool Prework (Active Project)</h3></a>
+          <ul>
+            <li>Learning platform for developers</li>
+            <li>Frontend in React and backend Rails API</li>
+            <li>Created to have a clear structure for students preparing for upcoming in-class courses</li>
+            <li>Makes it easy to gain more insight into where students are getting stuck</li>
+            <li>Still under development</li>
+          </ul>
           <a href="https://www.hirelyapp.com" target="_blank"><h3 className="minor">Hirely</h3></a>
           <ul>
             <li>B2B SaaS App</li>
             <li>Built using Ruby on Rails & jQuery</li>
+            <li>Helps businesses manage their recruitment & application pipeline</li>
+            <li>Deployed on VPS with staging & production environments</li>
             <li>Currently in beta with active users</li>
-          </ul>
-          <a href='https://coderschool.github.io/prework' target='_blank'><h3 className="">CoderSchool Prework</h3></a>
-          <ul>
-            <li>Learning platform for developers</li>
-            <li>Frontend in React and backend Rails API</li>
           </ul>
           <a href='https://www.producthunt.com/posts/net-worth-in-crypto' target='_blank'><h3 className="">Net Worth in Crypto</h3></a>
           <ul>
             <li>Side project built using Rails in a single weekend</li>
             <li>Launched on Product Hunt and received 100+ upvotes</li>
+            <li>Deployed on VPS</li>
+          </ul>
+          <hr />
+          <p>The projects below were built for practice purposes and never deployed to production:</p>
+          <a href="https://github.com/oscarjes/coderschool-coffee" target="_blank"><h3 className="minor">CoderSchool Coffee Shop</h3></a>
+          <ul>
+            <li>Coffee shop ordering SPA built using React & Stripe</li>
+            <li>Connects to Stripe (serverless) and processes payments</li>
+            <li>Deployed to Github pages</li>
+          </ul>
+          <a href="https://github.com/oscarjes/DuckSocial" target="_blank"><h3 className="minor">DuckSocial</h3></a>
+          <ul>
+            <li>Social networking app built using Rails and Bulma</li>
+            <li>Deployed to Heroku</li>
+          </ul>
+          <a href="https://github.com/oscarjes/BanhMi362" target="_blank"><h3 className="minor">BahnMi362</h3></a>
+          <ul>
+            <li>Ruby on Rails restaurant website with checkout functionality</li>
+            <li>Deployed to Heroku</li>
           </ul>
           {close}
         </article>
