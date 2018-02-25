@@ -32,7 +32,7 @@ class Main extends React.Component {
             <li>Makes it easy to gain more insight into where students are getting stuck</li>
             <li>Still under development</li>
           </ul>
-          <a href="https://www.hirelyapp.com" target="_blank"><h3 className="minor">Hirely</h3></a>
+          <a href="https://www.hirelyapp.com" target="_blank"><h3 className="minor">Hirely (Active Project)</h3></a>
           <ul>
             <li>B2B SaaS App</li>
             <li>Built using Ruby on Rails & jQuery</li>
