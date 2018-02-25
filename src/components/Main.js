@@ -36,6 +36,7 @@ class Main extends React.Component {
           <ul>
             <li>B2B SaaS App</li>
             <li>Built using Ruby on Rails & jQuery</li>
+            <li>100% built by me: came up with initial idea, created wireframes, designed the app, coded & deployed the MVP, etc.</li>
             <li>Helps businesses manage their recruitment & application pipeline</li>
             <li>Deployed on VPS with staging & production environments</li>
             <li>Currently in beta with active users</li>
