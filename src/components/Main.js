@@ -17,14 +17,14 @@ class Main extends React.Component {
           <h2 className="major">Intro</h2>
           <p>My path has been far from ordinary: I started out in finance (M&A consulting), then worked on a project with refugees in the Middle East for the German government and the UN. For the last few years I’ve been working in digital marketing, e.g. by being in charge of growth at <a href="https://WPCurve.com">WP Curve</a> leading up to their acquisition by GoDaddy.</p>
 
-          <p>My current passion, which I plan to pursue for many years to come, is coding. You can read about my unexpected journey learning how to code <a href="https://medium.com/@oscarjes/how-i-fell-in--with-coding-attended-a-boot-camp-for-1k-and-built-a-startup-mvp-35a57a777f3" target="_blank">here</a>. I’ve since built a <a href="https://www.hirelyapp.com" target="_blank">B2B SaaS app</a> (currently in beta), a <a href="https://coderschool.github.io/prework" target="_blank">learning platform for developers</a>, and a <a href='https://www.producthunt.com/posts/net-worth-in-crypto' target='_blank'>fun side-project</a> that received 100+ upvotes on producthunt.</p>
+          <p>My current passion, which I plan to pursue for many years to come, is coding. You can read about my unexpected journey learning how to code <a href="https://medium.com/@oscarjes/how-i-fell-in--with-coding-attended-a-boot-camp-for-1k-and-built-a-startup-mvp-35a57a777f3" target="_blank">here</a>. I’ve since built a <a href="https://www.hirelyapp.com" target="_blank">B2B SaaS app</a> (currently in beta), a <a href="https://prework.coderschool.vn" target="_blank">learning platform for developers</a>, and a <a href='https://www.producthunt.com/posts/net-worth-in-crypto' target='_blank'>fun side-project</a> that received 100+ upvotes on producthunt.</p>
           {close}
         </article>
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Software</h2>
           <p>I'm a fullstack Ruby on Rails & React developer. Check out some of the things I've been working on below:</p>
-          <a href='https://coderschool.github.io/prework' target='_blank'><h3 className="">CoderSchool Prework (Active Project)</h3></a>
+          <a href='https://prework.coderschool.vn' target='_blank'><h3 className="">CoderSchool Prework (Active Project)</h3></a>
           <ul>
             <li>Learning platform for developers</li>
             <li>Frontend in React and backend Rails API</li>
